@@ -1,0 +1,13 @@
+prefix=C:/Dropbox (eClerx Services Ltd.)/Anurag.bawankar_profiles/Documents/AgenticAI/venv/Library
+exec_prefix=C:/Dropbox (eClerx Services Ltd.)/Anurag.bawankar_profiles/Documents/AgenticAI/venv/Library
+libdir=C:/Dropbox (eClerx Services Ltd.)/Anurag.bawankar_profiles/Documents/AgenticAI/venv/Library/lib
+sharedlibdir=C:/Dropbox (eClerx Services Ltd.)/Anurag.bawankar_profiles/Documents/AgenticAI/venv/Library/lib
+includedir=C:/Dropbox (eClerx Services Ltd.)/Anurag.bawankar_profiles/Documents/AgenticAI/venv/Library/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
